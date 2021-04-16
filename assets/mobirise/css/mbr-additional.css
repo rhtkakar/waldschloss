@@ -994,7 +994,7 @@ section.lazy-placeholder:after {
 .cid-s3ez7qANMs {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/dsc09855-2000x1370.jpeg");
+  background-color: #4f4943;
 }
 .cid-s3ezyCVZUo {
   padding-top: 60px;
@@ -1003,44 +1003,6 @@ section.lazy-placeholder:after {
 }
 .cid-s3ezyCVZUo .mbr-text {
   color: #767676;
-}
-.cid-s3ezC48Yjd {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
-.cid-s3ezC48Yjd .card {
-  align-self: stretch;
-}
-.cid-s3ezC48Yjd .card-box {
-  height: 100%;
-  background-color: #ffffff;
-  padding: 2rem;
-}
-.cid-s3ezC48Yjd h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-}
-.cid-s3ezC48Yjd p {
-  color: #767676;
-  text-align: left;
-}
-.cid-s3ezC48Yjd .card-wrapper {
-  position: relative;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-s3ezC48Yjd .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-.cid-s3ezC48Yjd .card-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
 }
 .cid-s3eBMqUcWv {
   padding-top: 60px;
@@ -3118,6 +3080,7 @@ section.lazy-placeholder:after {
 }
 .cid-qwYHOWvXyr .mbr-text {
   color: #efefef;
+  text-align: left;
 }
 .cid-qwYHOWvXyr h4 {
   text-align: center;
