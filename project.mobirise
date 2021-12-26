@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Hotel-Waldschloss",
-    "currentPage": "restaurant.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -37,8 +37,8 @@
     "noImageResize": "true",
     "google-analytics": "<script src=\"https://js-sdk.dirs21.de/52f6f65e-8a0f-492c-855f-ebd6b34bde8c\" type=\"text/javascript\" async></script>",
     "versionFirst": "4.3.2",
-    "uniqCompNum": 73,
-    "versionPublish": "4.12.4",
+    "uniqCompNum": 74,
+    "versionPublish": "5.5.5",
     "path": "@PROJECT_PATH@",
     "siteFonts": [
       {
@@ -76,7 +76,10 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": "http://hotel-waldschloss.de",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishChangesOnly": true,
+    "publishType": "mbrsite",
+    "mbrsite": "mbrsite://%7B%22id%22%3A174887%2C%22domain%22%3A%22vcpfnmah92.mobirisesite.com%22%7D"
   },
   "pages": {
     "ueberuns.html": {
@@ -3224,6 +3227,42 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "color": "#232323"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#635a51\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>BETRIEBSFERIEN: 01.01.2021 - 15.01.2021<br>Wir wünschen allen unseren Gästen frohe Feiertage und einen guten Rutsch.</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "sSIOITW4D4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-21"
         },
         {
           "_styles": {
