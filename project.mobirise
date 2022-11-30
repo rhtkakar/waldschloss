@@ -38,7 +38,7 @@
     "google-analytics": "<script src=\"https://js-sdk.dirs21.de/52f6f65e-8a0f-492c-855f-ebd6b34bde8c\" type=\"text/javascript\" async></script>",
     "versionFirst": "4.3.2",
     "uniqCompNum": 77,
-    "versionPublish": "5.6.8",
+    "versionPublish": "4.12.4",
     "path": "@PROJECT_PATH@",
     "siteFonts": [
       {
